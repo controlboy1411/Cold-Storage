@@ -1,0 +1,68 @@
+.dashboard-detail-table-cell-std {
+    margin: 0 15px;
+    font-family: 'IBM Plex Sans';
+}
+
+.dashboard-detail-table-cell-value {
+    font-family: 'IBM Plex Sans';
+}
+
+.dashboard-detail-table-header-cell {
+    font-weight: 600 !important;
+    font-family: 'IBM Plex Sans' !important;
+    background-color: #EEF7FE;
+}
+
+.dashboard-detail-table-header-cell-icon {
+    width: 22px !important;
+    height: 22px !important;
+    color: #074E9F !important;
+}
+
+.dashboard-detail-table-header-cell-label {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'IBM Plex Sans';
+    margin-left: 5px;
+    vertical-align: middle;
+    color: #074E9F;
+}
+
+.css-10by3a5-MuiButtonBase-root-MuiMenuItem-root-MuiTablePagination-menuItem {
+    font-family: 'IBM Plex Sans' !important;
+}
+
+.dashboard-detail-table-body-cell-std {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    .dashboard-detail-table-cell-std {
+        margin: 0 4px 0 0;
+    }
+
+    .dashboard-detail-table-body-cell-std {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .dashboard-detail-table-header-cell-icon {
+        display: none !important;
+    }
+
+    .dashboard-detail-table-header-cell-label {
+        margin: 0;
+        font-size: 13px;
+    }
+
+    .dashboard-detail-table-cell-root {
+        padding: 12px 5px !important;
+        text-wrap: balance;
+        font-size: 13px !important;
+    }
+}

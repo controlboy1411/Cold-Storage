@@ -1,0 +1,29 @@
+.canvasjs-chart-credit {
+    display: none !important;
+}
+
+.canvasjs-chart-toolbar {
+    border: 1px solid #d4d4d4 !important;
+    border-right-width: 0 !important;
+}
+
+.canvasjs-chart-toolbar button {
+    border-right: 1px solid #d4d4d4 !important;
+}
+
+.canvasjs-chart-toolbar button:hover {
+    background-color: rgb(73, 155, 41)!important;
+}
+
+.chart-view-container {
+    position: relative;
+}
+
+.chart-view-unlock-trial {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 20px;
+    background-color: white;
+}

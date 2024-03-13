@@ -1,0 +1,31 @@
+.css-10hburv-MuiTypography-root {
+    font-family: 'IBM Plex Sans';
+}
+
+.menutab-tab-item-btn-click {
+    background-color: #0C4DA0;
+    color: #ffffff;
+}
+
+.menutab-tab-item-btn-click:hover {
+    background-color: #3678cf;
+    color: #ffffff;
+}
+
+.menutab-tab-item-icon-click {
+    color: #ffffff;
+}
+
+.menutab-subtab-item-btn-click {
+    color: #3678cf;
+}
+
+.menu-tab-container {
+    display: block;
+}
+
+@media screen and (max-width: 1050px) {
+    .menu-tab-container {
+        display: none;
+    }
+}

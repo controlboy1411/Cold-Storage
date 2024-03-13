@@ -1,0 +1,19 @@
+.report-detail-about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 50px;
+    margin-left: 35px;
+    cursor: pointer;
+    z-index: 2000;
+}
+
+.report-detail-about-title {
+    font-family: 'IBM Plex Sans';
+    font-weight: 700;
+    font-size: 16px;
+    color: #074E9F;
+    vertical-align: middle;
+    margin-left: 8px;
+}

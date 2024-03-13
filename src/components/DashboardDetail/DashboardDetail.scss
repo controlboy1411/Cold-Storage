@@ -1,0 +1,174 @@
+.dashboard-detail-container-0 {
+    margin: 20px;
+    padding: 15px 20px;
+    background-color: white;
+}
+
+.dashboard-detail-title {
+    font-family: 'IBM Plex Sans';
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.dashboard-detail-title-1 {
+    font-family: 'IBM Plex Sans';
+    font-weight: 600;
+    font-size: 20px;
+    margin: 5px 0 5px 4px;
+    display: none;
+}
+
+.dashboard-detail-container-1 {
+    margin: 20px 0 15px 0;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.dashboard-detail-container-1-sub-1 {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.dashboard-detail-container-1-sub-1-form-control-root {
+    max-width: 350px;
+}
+
+.dashboard-detail-container-1-sub-1-distance {
+    width: 30px;
+}
+
+.dashboard-detail-container-1-sub-3 {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.dashboard-detail-container-1-sub-3-distance {
+    width: 20px;
+}
+
+.dashboard-detail-container-1-sub-3-2 {
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard-detail-container-1-sub-3-2-btn-root {
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    text-wrap: nowrap !important;
+    background-color: #0C4DA0 !important;
+    text-transform: none !important;
+}
+
+.dashboard-detail-container-1-sub-3-1 {
+    margin: 0 10px;
+    max-width: 180px;
+}
+
+.dashboard-detail-container-2 {
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.dashboard-detail-container-2-distance {
+    width: 20px;
+}
+
+.dashboard-detail-container-2-chart {
+    width: 50%;
+}
+
+@media screen and (max-width: 900px) {
+    .dashboard-detail-container-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dashboard-detail-container-1-sub-1 {
+        width: 100%;
+    }
+
+    .dashboard-detail-container-1-sub-1-form-control-root {
+        max-width: 280px;
+    }
+
+    .dashboard-detail-container-1-sub-1-distance {
+        width: 20px;
+    }
+
+    .dashboard-detail-container-1-sub-3 {
+        width: 100%;
+    }
+
+    .dashboard-detail-container-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dashboard-detail-container-2-chart {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .dashboard-detail-container-0 {
+        margin: 4px;
+        padding: 15px 10px;
+    }
+
+    .dashboard-detail-title {
+        display: none;
+    }
+
+    .dashboard-detail-title-1 {
+        display: block;
+    }
+
+    .dashboard-detail-container-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dashboard-detail-container-1-sub-1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dashboard-detail-container-1-sub-1-distance {
+        height: 20px;
+        width: 0;
+    }
+
+    .dashboard-detail-container-1-sub-1-form-control-root {
+        max-width: none;
+    }
+
+    .dashboard-detail-container-1-sub-3-1 {
+        margin: 0;
+        max-width: max-content;
+    }
+
+    .dashboard-detail-container-1-sub-3-2 {
+        display: none;
+    }
+
+    .dashboard-detail-container-1-sub-3-2-btn-root {
+        font-size: 13px !important;
+    }
+
+    .dashboard-detail-padding-bottom {
+        height: 80px;
+    }
+}

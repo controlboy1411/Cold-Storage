@@ -1,0 +1,77 @@
+.admintab-container-0 {
+    margin: 20px;
+    padding: 15px 20px;
+    background-color: white;
+}
+
+.admintab-root-outlined-input-custom {
+    border-radius: 5px 0px 0px 5px !important;
+    width: 280px;
+}
+
+.admintab-root-not-outlined-input-custom {
+    border-color: #1976d2 !important;
+}
+
+.admin-search-bar-1 {
+    margin-left: 20px;
+}
+
+.admin-search-button {
+    cursor: pointer;
+    height: auto;
+    width: 60px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #0C4DA0;
+    color: #ffffff;
+}
+
+.admin-search-button:hover {
+    background-color: #1976d2;
+}
+
+.admin-search-button:active {
+    background-color: #0C4DA0;
+}
+
+.admin-add-new-btn {
+    width: 120px;
+    height: 35px;
+    font-family: 'IBM Plex Sans' !important;
+}
+
+.admin-add-new-btn-root {
+    background-color: #0C4DA0 !important;
+    text-transform: none !important;
+}
+
+.admin-add-new-btn-icon {
+    width: 20px !important;
+    margin-right: 10px;
+}
+
+.admintab-table-header-cell {
+    background-color: #0C4DA0;
+    color: white !important;
+    font-weight: 500 !important;
+    font-family: 'IBM Plex Sans' !important;
+}
+
+.admintab-table-header-cell-1 {
+    background-color: #3968a5;
+    color: white !important;
+    font-weight: 500 !important;
+    font-family: 'IBM Plex Sans' !important;
+}
+
+.admintab-table-header-cell-2 {
+    background-color: #3b77c3;
+    color: white !important;
+    font-weight: 500 !important;
+    font-family: 'IBM Plex Sans' !important;
+}
+
+.admintab-table-body-cell {
+    font-family: 'IBM Plex Sans' !important;
+}

@@ -1,0 +1,1 @@
+export { default as ChartBase } from './ChartBase/canvasjs.react';

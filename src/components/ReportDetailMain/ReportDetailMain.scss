@@ -1,0 +1,70 @@
+.report-detail-container-0 {
+    margin: 20px;
+    padding: 15px 0;
+}
+
+.report-detail-title {
+    font-family: 'IBM Plex Sans';
+    font-weight: 600;
+    font-size: 24px;
+    width: 100%;
+    color: #0C4DA0;
+}
+
+.report-detail-sub-title {
+    font-family: 'IBM Plex Sans';
+    font-weight: 600;
+    font-size: 20px;
+    width: 100%;
+    color: #0C4DA0;
+}
+
+.report-detail-container-1-sub-1 {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.report-detail-container-1-sub-1-form-control-root {
+    max-width: 350px;
+}
+
+.report-detail-container-1-sub-1-distance {
+    width: 30px;
+}
+
+.report-detail-container-1-sub-3 {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+}
+
+.report-detail-container-1-sub-3-1 {
+    margin: 0 10px;
+    max-width: 180px;
+    width: 100%;
+}
+
+.report-detail-container-1-sub-3-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+.report-detail-btn-root {
+    background-color: #0C4DA0 !important;
+    text-transform: none !important;
+}
+
+.report-detail-container-1 {
+    margin: 20px;
+    padding: 15px 20px;
+    background-color: #ffffff;
+}
+
+.report-detail-bottom {
+    height: 50px;
+}

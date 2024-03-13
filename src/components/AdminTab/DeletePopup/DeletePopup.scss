@@ -1,0 +1,24 @@
+.delete-popup-modal {
+    z-index: 2000;
+}
+
+.delete-poup-backdrop-modal {
+    z-index: 2000;
+}
+
+.delete-popup-title {
+    font-family: 'IBM Plex Sans' !important;
+    font-weight: 700;
+}
+
+.delete-popup-content {
+    font-family: 'IBM Plex Sans';
+    font-weight: 500;
+}
+
+.delete-popup-btn {
+    text-transform: none !important;
+    font-family: 'IBM Plex Sans' !important;
+    width: 100px !important;
+    margin: 20px 10px 0 10px !important;
+}
